@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" class="dark">
 
@@ -16,7 +17,6 @@
 
 <body class="dark:bg-zinc-800">
 
-  <?php session_start(); ?>
   <div class="container w-1/2 p-12 mx-auto flex items-center justify-center h-screen">
     <div>
       <div
