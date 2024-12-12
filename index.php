@@ -22,7 +22,7 @@
       <div
         class="shadow-sm border border-2 border-neutral-200 bg-white p-8 rounded-xl dark:bg-zinc-800 dark:border-zinc-700">
         <h1 class="font-semibold mb-3 dark:text-zinc-100">Sudoku Solver</h1>
-        <?php if ($_SESSION['status'] == 'failed') { ?>
+        <?php if (isset($_SESSION['status']) && $_SESSION['status'] == 'failed') { ?>
           <div class="bg-red-400 my-3 rounded-lg py-3 px-5 dark:bg-red-500 dark:text-white">
             Sudoku can't be solved 😔🙏
           </div>
