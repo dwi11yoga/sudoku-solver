@@ -39,7 +39,7 @@
 
                   <td>
                     <input type="text" min="1" max="9" id="<?php echo "cell-$i-$j" ?>" name="<?php echo "cell[$i][$j]" ?>"
-                      value="<?php echo $_SESSION['grid'][$i][$j] ?>"
+                      value="<?php echo $_SESSION['grid'][$i][$j] ?? '' ?>"
                       class="border w-8 text-center text-black dark:bg-zinc-800 dark:text-zinc-100 dark:border-zinc-700">
                   </td>
 
