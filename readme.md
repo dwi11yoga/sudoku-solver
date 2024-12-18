@@ -33,4 +33,5 @@ Try the application [here!](https://sudoku-solver-24ax.onrender.com/).
 ---
 
 Enjoy solving Sudoku puzzles effortlessly with the Sudoku Solver! 😉
+
 (Made with ❤ by me, with some help from ChatGPT)
