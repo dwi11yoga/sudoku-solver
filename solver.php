@@ -2,7 +2,6 @@
 // var_dump($_POST['00']);
 // die();
 
-// Cek 
 function cek($grid, $row, $col, $num)
 {
     // row dan col
@@ -60,13 +59,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['grid'] = $grid;
         header("Location:index.php");
         exit();
-        // echo json_encode(['success' => true, 'grid' => $grid]);
     } else {
         $_SESSION['status'] = 'failed';
         $_SESSION['grid'] = $_POST['cell'];
         header("Location:index.php");
         exit();
-        // echo json_encode(['success' => false]);
     }
 }
 ?>
