@@ -82,11 +82,11 @@
 
       <div class="flex items-center justify-between mt-2">
         <div class="text-sm text-black dark:text-zinc-100">
-          <!-- By
-          <a href="https://github.com/dwi11yoga" target="_blank"
+          Made with ❤ by
+          <a href="https://github.com/dwi11yoga" target="_blank" title="Visit Github"
             class="hover:underline hover:decoration-amber-400 hover:decoration-2 hover:underline-offset-4">
-            Dwi Yoga Yulian Nugroho
-          </a> -->
+            dwi11yoga
+          </a>.
         </div>
         <div>
           <input id="darkModeToggle" type="checkbox" onchange="darkModeToggle()" hidden>
